@@ -6,8 +6,8 @@
   <!-- Permet une mise en page responsive sur mobiles et tablettes -->
 
   <!-- ===== Référencement (SEO) ===== -->
-  <title>Lucas Catusse — Ingénieur mécanique | Portfolio</title> <!-- Titre de l'onglet et du résultat Google -->
-  <meta name="description" content="Portfolio de Lucas Catusse, ingénieur en génie mécanique (Polytech Lyon) : calcul de structures, simulation CFD, transferts thermiques, stages et projets."> <!-- Texte affiché sous le titre dans Google -->
+  <title>Lucas Catusse — Ingénieur mécanique, Consultant chez Akkodis | Portfolio</title> <!-- Titre de l'onglet et du résultat Google -->
+  <meta name="description" content="Portfolio de Lucas Catusse, ingénieur en génie mécanique (Polytech Lyon), consultant chez Akkodis à Toulouse-Blagnac : simulation CFD, calcul de structures, transferts thermiques, expériences et projets."> <!-- Texte affiché sous le titre dans Google -->
   <link rel="canonical" href="https://lucascatusse.github.io/"> <!-- Adresse officielle de la page -->
 
   <!-- Carte d'identité lisible par Google (données structurées) -->
@@ -16,9 +16,14 @@
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Lucas Catusse",
-    "jobTitle": "Ingénieur en génie mécanique",
+    "jobTitle": "Ingénieur Consultant en génie mécanique",
+    "worksFor": { "@type": "Organization", "name": "Akkodis" },
+    "workLocation": { "@type": "Place", "name": "Toulouse-Blagnac, France" },
     "url": "https://lucascatusse.github.io/",
-    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Polytech Lyon" },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "Polytech Lyon" },
+      { "@type": "CollegeOrUniversity", "name": "Polytech Montpellier" }
+    ],
     "sameAs": [
       "https://www.linkedin.com/in/lucas-catusse-9b38662bb",
       "https://github.com/lucascatusse"
@@ -79,13 +84,14 @@
         <a href="https://www.linkedin.com/in/lucas-catusse-9b38662bb">LinkedIn</a>
       </p>
 
-      <!-- Info sur la recherche de travail -->
-      <p><strong>Futur ingénieur, disponible à partir de septembre 2026</strong></p>
+      <!-- Poste actuel -->
+      <p><strong>Ingénieur Consultant chez Akkodis — Toulouse-Blagnac</strong></p>
 
       <!-- BANDEAU DE NAVIGATION DEVENU BOUTONS -->
       <nav class="nav-container">
         <a href="#intro" class="nav-btn">Introduction</a>
         <a href="#profile" class="nav-btn">Profil</a>
+        <a href="#akkodis" class="nav-btn">CDI Akkodis</a>
         <a href="#stage-florence" class="nav-btn">Stage R&D (Florence)</a>
         <a href="#stage-upgrades" class="nav-btn">Analyses Upgrades</a>
         <a href="#projects" class="nav-btn">Projets</a>
@@ -107,11 +113,11 @@
     
     <!-- Présentation personnelle -->
     <section>
-      <p>Bonjour et bienvenue ! Je m'appelle Lucas, j'ai 22 ans et je suis actuellement en dernière année de cycle ingénieur en génie mécanique à Polytech Lyon.</p>
-      <p>Passionné par la mécanique, j'ai développé une réelle affinité pour le calcul mécanique, les simulations numériques et les transferts thermiques. Je prends plaisir à décortiquer les problématiques techniques pour transformer des défis complexes en solutions robustes, concrètes et efficaces.</p>
-      <p>Ce portfolio est une fenêtre sur mon univers professionnel et académique. Vous y trouverez une sélection de mes projets les plus aboutis, ainsi qu'un retour sur mes deux expériences de stage qui m'ont permis d'affiner ma rigueur et mon agilité en bureau d'études.</p>
-      <p>Que ce soit pour optimiser des structures thermomécaniques, modéliser des écoulements ou anticiper le comportement de systèmes mécaniques, j'ai à cœur d'allier théorie et réalité industrielle. En septembre 2026, je clôturerai mon cursus et serai prêt à relever de nouveaux défis en tant qu'ingénieur.</p>
-      <p>Je suis toujours ravi d'échanger sur des projets innovants ou des opportunités de collaboration. N'hésitez pas à parcourir mon travail, et si vous souhaitez en savoir plus sur mon parcours ou discuter technique, contactez-moi via la section dédiée. Au plaisir de faire votre connaissance !</p>
+      <p>Bonjour et bienvenue ! Je m'appelle Lucas Catusse, ingénieur en génie mécanique diplômé de Polytech Lyon (spécialité Mécanique) en 2026. Depuis septembre 2026, je suis <strong>Ingénieur Consultant en CDI chez Akkodis</strong>, au sein de l'activité Ingénierie Produit, sur le site de Toulouse-Blagnac.</p>
+      <p>Après le cycle préparatoire intégré de Polytech Montpellier, j'ai poursuivi mon cycle ingénieur à Polytech Lyon. Mon parcours s'est construit autour de deux expériences marquantes : un stage d'ingénieur d'analyses d'upgrades chez Dedienne Aerospace à Toulouse, au contact des outillages aéronautiques et de la sous-traitance industrielle, puis mon projet de fin d'études en R&D à l'Université de Florence, consacré au refroidissement de la chambre de combustion d'un moteur à détonation rotative par un échangeur à structures TPMS.</p>
+      <p>Ce qui m'anime, c'est la rencontre entre la mécanique et les outils numériques : CAO, simulation CFD, calcul de structures, programmation Python ou rédaction technique sous LaTeX. J'aime décortiquer un problème technique, le modéliser puis le confronter à la réalité industrielle pour aboutir à des solutions robustes et concrètes.</p>
+      <p>Chez Akkodis, je mets aujourd'hui ces compétences au service de projets d'ingénierie, notamment à travers le projet interne <strong>IC_alice</strong>, une étude CFD menée en équipe. À plus long terme, je souhaite évoluer vers la conception, la relation avec les fournisseurs et le pilotage de projets d'industrialisation.</p>
+      <p>Ce portfolio rassemble mes expériences professionnelles et une sélection de mes projets les plus aboutis. Je suis toujours ravi d'échanger sur des sujets techniques ou des projets innovants : n'hésitez pas à me contacter par mail ou sur LinkedIn. Au plaisir de faire votre connaissance !</p>
     </section>
   </section>
 
@@ -121,13 +127,110 @@
   <section id="profile">
     <h2>Profil</h2>
     <p>
-      Futur ingénieur en génie mécanique fraîchement diplômé et doté d'un solide bagage scientifique, je suis activement à la recherche de mon premier poste en bureau d'études ou en département R&D à compter du 1er octobre 2026. Je cible en priorité les régions Occitanie et Nouvelle-Aquitaine pour mettre mes compétences en calcul mécanique, simulation numérique (CFD) et transferts thermiques au service de vos projets industriels.
+      Ingénieur en génie mécanique, je suis Consultant en ingénierie produit chez Akkodis depuis septembre 2026. Mon profil associe un solide bagage scientifique en calcul mécanique, simulation numérique (CFD, éléments finis) et transferts thermiques à une première expérience industrielle dans l'aéronautique : analyse de plans techniques, suivi de la sous-traitance et gestion des achats. Je souhaite orienter ma carrière vers la conception, la relation fournisseurs et la gestion de projets d'industrialisation.
     </p>
+
+    <!-- Fiche synthétique -->
+    <div class="profile-facts">
+      <div class="fact">
+        <span class="fact-label">Poste actuel</span>
+        <span class="fact-value">Ingénieur Consultant (CDI) — Akkodis, Ingénierie Produit</span>
+      </div>
+      <div class="fact">
+        <span class="fact-label">Localisation</span>
+        <span class="fact-value">Toulouse — Blagnac (31)</span>
+      </div>
+      <div class="fact">
+        <span class="fact-label">Formation</span>
+        <span class="fact-value">Ingénieur Polytech Lyon, spécialité Mécanique (2026) · Prépa intégrée Polytech Montpellier</span>
+      </div>
+      <div class="fact">
+        <span class="fact-label">Domaines</span>
+        <span class="fact-value">Simulation CFD & thermique · Calcul de structures · Python · CAO</span>
+      </div>
+      <div class="fact">
+        <span class="fact-label">Langues</span>
+        <span class="fact-value">Français (natif) · Anglais C1 (TOEIC 920) · Italien & Espagnol A2</span>
+      </div>
+      <div class="fact">
+        <span class="fact-label">Objectif</span>
+        <span class="fact-value">Conception, relation fournisseurs, chef de projet industrialisation</span>
+      </div>
+    </div>
   </section>
 
   <!-- ===================== -->
   <!--    WORK EXPERIENCE    -->
   <!-- ===================== -->
+
+  <!-- ===================== -->
+  <!--      CDI AKKODIS      -->
+  <!-- ===================== -->
+  <section id="akkodis">
+    <h2>Ingénieur Consultant chez Akkodis</h2>
+
+    <div class="job-container">
+      <div class="job-header akkodis-header">
+        <!-- Logo + intitulé du poste -->
+        <div class="logo-title-group">
+          <!-- 📷 PHOTO À AJOUTER : logo Akkodis → fichier « akkodislogo.png » à la racine du dépôt -->
+          <div class="company-logo">
+            <img src="akkodislogo.png"
+                 alt="Logo Akkodis"
+                 onerror="this.onerror=null; this.src='https://placehold.co/150x150/ffffff/1b365d?text=AKKODIS';">
+          </div>
+          <h3>CDI — Ingénieur Consultant, Akkodis Ingénierie Produit (Toulouse-Blagnac)</h3>
+        </div>
+        <span class="date-badge">Depuis septembre 2026</span>
+      </div>
+
+      <p class="job-objective">
+        <strong>Le poste :</strong> Akkodis, marque technologique du groupe Adecco, est un acteur mondial du conseil en ingénierie et en IT. J'ai rejoint son activité Ingénierie Produit en CDI en tant qu'Ingénieur Consultant, sur le site de Toulouse-Blagnac, pour intervenir sur des projets d'ingénierie pour le compte de clients industriels ainsi que sur des projets internes.
+      </p>
+
+      <!-- Projet IC_alice -->
+      <div class="highlight-project">
+        <div class="highlight-header">
+          <h4>Projet IC_alice</h4>
+          <span class="badge badge-info">Projet interne Akkodis</span>
+        </div>
+
+        <p class="highlight-desc">
+          IC_alice est un projet interne d'Akkodis sur lequel je travaille en équipe. J'y réalise une étude de mécanique des fluides numérique (CFD) : la simulation de l'écoulement d'un fluide dans un conduit équipé de trois buses, sur la plateforme 3DEXPERIENCE (SIMULIA).
+        </p>
+
+        <ul class="job-tasks">
+          <li><strong>Simulation CFD :</strong> modélisation de l'écoulement d'un fluide dans un conduit à trois buses.</li>
+          <li><strong>Outils :</strong> plateforme 3DEXPERIENCE (SIMULIA), en complément de mon expérience sur Ansys Fluent acquise lors de mon projet de fin d'études.</li>
+          <li><strong>Travail en équipe :</strong> étude menée et suivie collectivement au sein de l'équipe projet.</li>
+          <!-- ✏️ À COMPLÉTER si tu veux : objectif de l'étude, ton rôle précis, résultats obtenus -->
+        </ul>
+
+        <div class="tag-list">
+          <span class="tag">CFD</span>
+          <span class="tag">3DEXPERIENCE</span>
+          <span class="tag">SIMULIA</span>
+          <span class="tag">Mécanique des fluides</span>
+          <span class="tag">Travail en équipe</span>
+        </div>
+
+        <!-- 📷 PHOTOS À AJOUTER : dépose les images à la racine du dépôt avec ces noms exacts.
+             Tant qu'un fichier n'existe pas, son emplacement est masqué automatiquement sur le site. -->
+        <div class="photo-grid">
+          <figure>
+            <img src="ic_alice_geometrie.png" alt="Géométrie et maillage du conduit à trois buses (projet IC_alice)"
+                 onerror="this.closest('figure').style.display='none';">
+            <figcaption>Géométrie / maillage du conduit à trois buses</figcaption>
+          </figure>
+          <figure>
+            <img src="ic_alice_resultats.png" alt="Résultats de la simulation CFD du projet IC_alice"
+                 onerror="this.closest('figure').style.display='none';">
+            <figcaption>Résultats de simulation (champ de vitesse / pression)</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- ID UNIQUE POUR LE PREMIER STAGE -->
   <section id="stage-florence">
@@ -467,7 +570,7 @@
   <!--        FOOTER         -->
   <!-- ===================== -->
   <footer>
-    <p>© Lucas Catusse 2025</p>
+    <p>© Lucas Catusse 2026</p>
   </footer>
 
 </body>
